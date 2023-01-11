@@ -5,7 +5,7 @@ export const Container = styled.div`
   max-width: 700px;
   margin: auto;
   display: flex;
-  padding 2rem 0;
+  padding: 2rem 0;
 
   @media (max-width: 750px) {
     flex-direction: column;
@@ -41,7 +41,6 @@ export const GridArea = styled.div`
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  background-color: #00ff00;
 
   @media (max-width: 750px) {
     justify-content: center;
